@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-02-09T12:41:53" tests="1" file="cypress/integration/tests/crossorigin.spec.js" time="2.4700" failures="0">
+  
+  <testcase name="verify the title" time="2.4700" classname="verify the title"></testcase>
+  
+</testsuite>
+<testsuite name="Home page" timestamp="2021-02-09T12:41:58" tests="1" time="1.6580" failures="0">
+  
+  <testcase name="Home page verify the title" time="1.6580" classname="verify the title"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-02-09T12:42:21" tests="0" file="cypress/integration/tests/hooks.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="different types of hooks" timestamp="2021-02-09T12:42:21" tests="2" time="0.1340" failures="0">
+  
+  <testcase name="different types of hooks open facebook.com" time="0.0960" classname="open facebook.com"></testcase>
+  
+  <testcase name="different types of hooks open google.com" time="0.0380" classname="open google.com"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-02-09T12:42:08" tests="0" file="cypress/integration/tests/getfindwithin1.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="different commands of get and find" timestamp="2021-02-09T12:42:08" tests="1" time="0.0000" failures="1">
+  
+  <testcase name="different commands of get and find verify the tittle for google" time="0.0000" classname="verify the tittle for google">
+    
+    <failure message="Timed out retrying after 4000ms: Cannot read property &apos;split&apos; of undefined" type="TypeError"><![CDATA[TypeError: Timed out retrying after 4000ms: Cannot read property 'split' of undefined
+    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:155082:25)
+    at Context.and (https://www.google.com/__cypress/runner/cypress_runner.js:155179:23)
+    at https://www.google.com/__cypress/runner/cypress_runner.js:150879:39
+    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:151131:14)
+    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:10609:23)
+    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:9753:18)
+    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:9740:25)
+    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:10609:23)
+    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:8544:31)
+    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:8601:18)
+    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:8646:10)
+    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:8726:18)
+    at _drainQueueStep (https://www.google.com/__cypress/runner/cypress_runner.js:5316:12)
+    at _drainQueue (https://www.google.com/__cypress/runner/cypress_runner.js:5309:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5325:5)
+    at Async.drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5195:14)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-02-09T12:42:25" tests="0" file="cypress/integration/tests/login.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="free crm app" timestamp="2021-02-09T12:42:25" tests="1" time="0.0000" failures="1">
+  
+  <testcase name="free crm app login" time="0.0000" classname="login">
+    
+    <failure message="Cypress detected a cross origin error happened on page load:
+
+  &gt; Blocked a frame with origin &quot;https://classic.crmpro.com&quot; from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  &gt; https://crmpro.com
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &apos;protocol&apos;, &apos;port&apos; (if specified), and/or &apos;host&apos; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation" type="CypressError"><![CDATA[CypressError: Cypress detected a cross origin error happened on page load:
+
+  > Blocked a frame with origin "https://classic.crmpro.com" from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  > https://crmpro.com
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation
+    at onPageLoadErr (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:157518:17)
+    at HTMLIFrameElement.<anonymous> (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:170541:17)
+    at HTMLIFrameElement.dispatch (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:91191:27)
+    at HTMLIFrameElement.elemData.handle (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:90999:28)
+From Your Spec Code:
+    at Context.eval (https://classic.crmpro.com/__cypress/tests?p=cypress/integration/tests/login.spec.js:108:8)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+</testsuites>

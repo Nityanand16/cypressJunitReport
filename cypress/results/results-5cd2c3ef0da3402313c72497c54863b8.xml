@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-02-09T12:42:25" tests="0" file="cypress/integration/tests/login.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="free crm app" timestamp="2021-02-09T12:42:25" tests="1" time="0.0000" failures="1">
+    <testcase name="free crm app login" time="0.0000" classname="login">
+      <failure message="Cypress detected a cross origin error happened on page load:
+
+  &gt; Blocked a frame with origin &quot;https://classic.crmpro.com&quot; from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  &gt; https://crmpro.com
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &apos;protocol&apos;, &apos;port&apos; (if specified), and/or &apos;host&apos; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation" type="CypressError"><![CDATA[CypressError: Cypress detected a cross origin error happened on page load:
+
+  > Blocked a frame with origin "https://classic.crmpro.com" from accessing a cross-origin frame.
+
+Before the page load, you were bound to the origin policy:
+
+  > https://crmpro.com
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation
+    at onPageLoadErr (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:157518:17)
+    at HTMLIFrameElement.<anonymous> (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:170541:17)
+    at HTMLIFrameElement.dispatch (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:91191:27)
+    at HTMLIFrameElement.elemData.handle (https://classic.crmpro.com/__cypress/runner/cypress_runner.js:90999:28)
+From Your Spec Code:
+    at Context.eval (https://classic.crmpro.com/__cypress/tests?p=cypress/integration/tests/login.spec.js:108:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.1280" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-02-09T12:41:53" tests="1" file="cypress/integration/tests/crossorigin.spec.js" time="2.4700" failures="0">
+    <testcase name="verify the title" time="2.4700" classname="verify the title">
+    </testcase>
+  </testsuite>
+  <testsuite name="Home page" timestamp="2021-02-09T12:41:58" tests="1" time="1.6580" failures="0">
+    <testcase name="Home page verify the title" time="1.6580" classname="verify the title">
+    </testcase>
+  </testsuite>
+</testsuites>
